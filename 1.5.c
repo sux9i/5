@@ -6,8 +6,8 @@ int main()
 {
 	setlocale(LC_ALL, "RUS");
 	double gr, res;
-	printf("Ввод угла в градусах:");
+	printf("Р’РІРѕРґ СѓРіР»Р° РІ РіСЂР°РґСѓСЃР°С…:");
 	scanf_s("%lf", &gr);
 	res = sin(gr * M_PI / 180.0);
-	printf("Синус угла %.0f градусов=%.6f", gr, res);
+	printf("РЎРёРЅСѓСЃ СѓРіР»Р° %.0f РіСЂР°РґСѓСЃРѕРІ=%.6f", gr, res);
 }
